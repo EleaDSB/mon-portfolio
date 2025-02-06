@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="logo" @click="scrollToTop">
-      <img src="@/assets/EDS.png" alt="Logo personnel" />
+      <img src="@/assets/EDS.png" alt="Logo personnel">
     </div>
     <h2> Bienvenue sur mon portfolio</h2>
     <nav>

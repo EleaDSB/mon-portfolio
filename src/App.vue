@@ -25,7 +25,7 @@ const myemail = import.meta.env
 
 <template>
   <div class="app">
-    <TheHeader />
+    <TheHeader/>
     <main>
       <RouterView @openProject="openProjectModal" />
     </main>

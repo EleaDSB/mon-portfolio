@@ -24,7 +24,7 @@ Ce site a été conçu pour vous permettre de découvrir mes créations et d’e
           :project="project"
           @click="$emit('open-project', project)"
         />
-      </div>
+     </div>
     </section>
 
     <!-- Section Contact -->
@@ -38,7 +38,7 @@ Ce site a été conçu pour vous permettre de découvrir mes créations et d’e
             id="name" 
             v-model="form.name" 
             required
-          />
+          >
         </div>
 
         <div class="form-group">
@@ -48,7 +48,7 @@ Ce site a été conçu pour vous permettre de découvrir mes créations et d’e
             id="object" 
             v-model="form.object" 
             required
-          />
+          >
         </div>
 
         <div class="form-group">

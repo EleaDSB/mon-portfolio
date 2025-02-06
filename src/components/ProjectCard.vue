@@ -4,7 +4,7 @@
       :src="project.thumbnail" 
       :alt="project.title"
       class="project-image"
-    />
+    >
     <div class="project-info">
       <h3 class="project-title">{{ project.title }}</h3>
       <div class="project-technologies">

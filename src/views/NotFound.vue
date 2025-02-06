@@ -4,7 +4,7 @@
         src="/src/assets/404-illustration.svg" 
         alt="Page non trouvée"
         class="not-found-image"
-      />
+      >
       <h1>404</h1>
       <p>La page que vous recherchez n'existe pas</p>
       <router-link to="/" class="home-link">

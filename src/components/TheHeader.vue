@@ -3,7 +3,7 @@
     <div class="logo" @click="scrollToTop">
       <img src="@/assets/EDS.png" alt="Logo personnel" />
     </div>
-    <h2> Bienvenue sur le portfolio de Eléa DE SOUSA</h2>
+    <h2> Bienvenue sur mon portfolio</h2>
     <nav>
       <ul>
         <li><a href="#presentation" :class="{ active: activeSection === 'presentation' }">Présentation</a></li>
@@ -61,7 +61,7 @@ onUnmounted(() => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4px;
+  padding: 8px 30px;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;

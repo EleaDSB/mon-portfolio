@@ -91,8 +91,7 @@ const projects = ref([
     date: '2024-10-03',
     technologies: ['Pack office',],
     description: 'rédaction d\'un cahier des charges pour un site de vente en ligne',
-    websiteUrl: 'https://site-ecommerce.com',
-    githubUrl: 'https://github.com/user/ecommerce',
+    pdfUrl: '/src/assets/Cahier-Des-Charges.pdf',
     images: [
       { url: '/src/assets/CDCCut.png', alt: 'Extrait 1 du cahier des charges' },
       { url: '/src/assets/CDCCut2.png', alt: 'Extrait 2 du cahier des charges' }

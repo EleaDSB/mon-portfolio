@@ -108,7 +108,7 @@ const projects = ref([
     images: [
       { url: '/src/assets/Espace-Co.png', alt: 'Extrait du site' },
     ]
-  }
+  },
 ])
 
 // État du formulaire

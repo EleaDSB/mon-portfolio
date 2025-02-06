@@ -18,6 +18,8 @@ const openProjectModal = (project) => {
 const closeModal = () => {
   isModalOpen.value = false
   selectedProject.value = null
+
+const myemail = import.meta.env
 }
 </script>
 

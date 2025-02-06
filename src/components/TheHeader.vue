@@ -8,7 +8,7 @@
       <ul>
         <li><a href="#presentation" :class="{ active: activeSection === 'presentation' }">Présentation</a></li>
         <li><a href="#creations" :class="{ active: activeSection === 'creations' }">Créations</a></li>
-        <li><a href="#contact" :class="{ active: activeSection === 'contact' }">Contact</a></li>
+        <li><a href="#contact" :class="{ active: activeSection === 'contact' }">Me Contacter</a></li>
       </ul>
     </nav>
   </header>
@@ -72,7 +72,7 @@ onUnmounted(() => {
 }
 
 h2 {
-  padding-left: 175px;
+  padding-left: 250px;
   color: red;
 }
 

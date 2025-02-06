@@ -29,7 +29,7 @@ Ce site a été conçu pour vous permettre de découvrir mes créations et d’e
 
     <!-- Section Contact -->
     <section id="contact" class="section">
-      <h2>Contact</h2>
+      <h2>Me Contacter</h2>
       <form @submit.prevent="handleSubmit" class="contact-form">
         <div class="form-group">
           <label for="name">Nom et prénom</label>
@@ -205,7 +205,7 @@ h2 {
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: white;
 }
 
 .form-group input,

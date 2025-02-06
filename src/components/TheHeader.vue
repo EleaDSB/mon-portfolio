@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <div class="logo" @click="scrollToTop">
+    <div class="logo" @click="$router.push('/')">
       <img src="@/assets/EDS.png" alt="Logo personnel">
     </div>
     <h2> Bienvenue sur mon portfolio</h2>

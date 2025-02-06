@@ -135,9 +135,7 @@ const handleSubmit = async () => {
     console.error('Error submitting form:', error)
   }
 }
-//TEST
-//console.log(import.meta.env.VITE_EMAIL_DESTINATION)
-//END TEST
+
 </script>
 
 <style scoped>

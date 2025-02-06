@@ -70,6 +70,8 @@ Ce site a été conçu pour vous permettre de découvrir mes créations et d’e
 import { ref } from 'vue'
 import ProjectCard from '../components/ProjectCard.vue'
 
+const emailAdress = import.meta.env.VITE_EMAIL_DESTINATION
+
 // Données des projets
 const projects = ref([
   {
@@ -125,14 +127,16 @@ const handleSubmit = async () => {
     form.value = {
       name: '',
       object: '',
-      message: ''
+      message: '',
     }
+    alert('Message envoyé avec succès à '+ emailAdress)
+
   } catch (error) {
     console.error('Error submitting form:', error)
   }
 }
 //TEST
-console.log(import.meta.env.VITE_EMAIL_DESTINATION)
+//console.log(import.meta.env.VITE_EMAIL_DESTINATION)
 //END TEST
 </script>
 
